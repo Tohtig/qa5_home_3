@@ -13,6 +13,5 @@ public class SelenideFindTest {
         $(byText("Wiki")).click();
         $("#wiki-pages-box").$(byText("SoftAssertions")).click();
         $("#wiki-content").shouldHave(text("@ExtendWith({SoftAssertsExtension.class})"));
-        sleep(3000);
     }
 }
